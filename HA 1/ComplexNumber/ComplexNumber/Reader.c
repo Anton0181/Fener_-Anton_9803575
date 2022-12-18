@@ -66,12 +66,12 @@ void format(char* str, CN array[]) {
 		}
 		else if (c == '+' ) {
 			array[j].real = atof(number);
-			printf("%lf\n", array[j].real);
+			//printf("%lf\n", array[j].real);
 			k = 0;
 		}
 		else if (c == 'i') {
 			array[j].imaginary = atof(number);
-			printf("%lf\n", array[j].imaginary);
+			//printf("%lf\n", array[j].imaginary);
 			k = 0;
 			j++;
 		}
