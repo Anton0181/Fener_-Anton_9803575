@@ -15,7 +15,7 @@ int main() {
 	format(firstStr, &array);
 
 	format(secondStr, &array);
-	funktion(array);
+	funktion(&array);
 
 	//printf("Real: %lf\nImaginary: %lf\n", array[0].real, array[0].imaginary);
 
